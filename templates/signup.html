@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
+    <link rel="stylesheet" href="../static/css/signup.css">
+    <script>
+
+        function enableButton() 
+        {
+            document.getElementById("mySubmit").disabled = false;
+        }
+
+        function successfulSignup()
+        {
+            alert("Signed up successfully. Log in now");
+        }
+
+    </script>
+</head>
+<body>
+    <div id="div1">
+        <a href="/"><button>Home</button></a>
+        <a href="contact"><button>Contact</button></a> 
+    </div>
+    <div id="div2">
+        <h1>Sign up</h1><br>
+        <p>By signing up, you agree to our Terms of use and Privacy Policy.</p>
+    </div>
+    <div id="div3">
+        <form method="POST" enctype=multipart/form-data>
+            <label>Enter your name</label><br>
+            <input type="text" name="name"> 
+            <label>Insert a photo</label><br>
+            <input type="file" id="myfile" name="image" onclick="enableButton()">
+            <label>Or scan your face</label><br><br><br>
+            <a href="scan"><img src="../static/img/faceRecognition.png" onclick="enableButton()"></a><br><br><br>
+            <input id="mySubmit" type="submit" value="SUBMIT" disabled onclick="successfulSignup()"><br><br>
+            <a href="login" id="alink">Have an account? Log in</a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body
+{
+    font-family: 'Raleway';
+    background-image: url('../img/logInBackground.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+#div1
+{
+    text-align: right
+}
+
+#div1 button
+{
+    font-family: 'Raleway';
+    font-size: 22px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid transparent;
+    padding: 10px; 
+    margin-top: 10px;
+    margin-right: 30px
+}
+
+#div1 button:hover
+{
+    border-bottom: 3px solid white;
+    cursor: pointer            
+}
+
+#div2
+{
+    text-align: left;
+    color: white;
+    background-color: rgb(24, 13, 91);
+    width: 25%;
+    height: 490px;
+    display: inline-block;
+    padding: 50px 100px;
+    margin-top: 50px;
+    margin-left: 180px
+}
+
+#div3
+{
+    text-align: left;
+    background-color: rgb(231, 231, 231);
+    width: 25%;
+    height: 490px;
+    float: right;
+    padding: 50px 100px;
+    margin-top: 50px;
+    margin-right: 171px
+}
+
+input
+{
+    width: 92%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px
+}
+
+input[type="submit"]
+{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(24, 13, 91);
+    width: 98%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px
+}
+
+input[type="submit"]:hover
+{   
+    background-color: rgb(51, 33, 163);
+    cursor: pointer
+}
+
+input[type="submit"]:disabled
+{
+    color: #666666;
+    background-color: #cccccc;
+    border: 1px solid #999999;
+    cursor: auto
+}
+
+input[type="submit"]:focus
+{
+    color: white;
+    background-color: rgb(13, 208, 45);
+    cursor: auto
+}
+
+img
+{
+    width: 35%;
+    margin-left: 120px
+}
+
+img:hover 
+{
+    opacity: 0.7
+}
+
+a
+{
+    color: black;
+    text-decoration: none
+}
+
+a:hover
+{
+    color: rgb(24, 13, 91)
+}
+
+#alink
+{
+    margin-left: 115px
+}
